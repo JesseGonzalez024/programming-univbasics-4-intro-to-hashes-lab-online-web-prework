@@ -30,8 +30,7 @@ def update_counting_hash(hash, key)
     if hash.include?(key)  
      binding.pry key += 1
     else
-      key = 1
+      returns[key] = 1
     end
-  return hash
 end
 
