@@ -1,3 +1,4 @@
+
 def new_hash
   new_hash = Hash.new
   return new_hash
