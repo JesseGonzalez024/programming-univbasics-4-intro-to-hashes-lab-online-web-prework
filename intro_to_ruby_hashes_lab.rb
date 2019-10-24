@@ -27,7 +27,7 @@ end
 #-----------------------------------
 def update_counting_hash(hash, key)
     if hash.include?(key)
-     binding.pri key += 1
+     binding.pry key += 1
     else
       key = 1
     end
